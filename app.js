@@ -13,7 +13,7 @@ const app = express()
 
 corsOptions ={
     credential:true,
-    origin:"https://note-taking-app-fd.vercel.app/"
+    origin:"https://note-taking-app-fd.vercel.app"
 }
 app.use(cors(corsOptions))
 app.use(express.json())
